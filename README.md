@@ -22,15 +22,17 @@ The application is implemented as an ES module Node.js CLI and uses Node.js buil
 ## File Structure
 
 ```text
-quiz-cli/
-├── package.json              # Project metadata, Node.js requirement, and npm scripts
-├── index.js                  # CLI entry point, question loading, and application loop
-├── data/
-│   └── questions.json        # Categories and multiple-choice question data
-└── src/
-    ├── colors.js             # ANSI color and text-style helpers
-    ├── input.js              # Readline prompts, selection, confirmation, and pause helpers
-    └── quiz.js                # Quiz class, shuffling, scoring, progress, and results
+repository-root/
+├── README.md                         # Project documentation
+└── test-app/
+    ├── package.json                  # Project metadata, Node.js requirement, and npm scripts
+    ├── index.js                     # CLI entry point, question loading, and application loop
+    ├── data/
+    │   └── questions.json           # Categories and multiple-choice question data
+    └── src/
+        ├── colors.js                # ANSI color and text-style helpers
+        ├── input.js                 # Readline prompts, selection, confirmation, and pause helpers
+        └── quiz.js                  # Quiz class, shuffling, scoring, progress, and results
 ```
 
 ## Setup Instructions
